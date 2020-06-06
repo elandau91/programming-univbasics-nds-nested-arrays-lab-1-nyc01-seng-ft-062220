@@ -39,6 +39,9 @@ def sorted_matrix
   ]
   
   array[0].sort
+  array[1].sort
+  
+  array
 end
 
 def matrix_lookup(matrix, row, column)
