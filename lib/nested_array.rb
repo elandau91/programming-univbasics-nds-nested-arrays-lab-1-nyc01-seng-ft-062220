@@ -38,8 +38,7 @@ def sorted_matrix
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
   ]
   
-  array[0].sort
-  array[1].sort
+  array.sort
 end
 
 def matrix_lookup(matrix, row, column)
