@@ -41,8 +41,9 @@ def sorted_matrix
   row1 = array[0].sort
   row2 = array[1].sort
   
-  puts row1
-  row2
+  new_array = [row1, row2]
+  
+  new_array
 end
 
 def matrix_lookup(matrix, row, column)
